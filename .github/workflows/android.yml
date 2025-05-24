@@ -19,7 +19,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Upload APK
-      uses: actions/upload-artifact@v3.1.3
+      uses: actions/upload-artifact@v2.1.3
       with:
         name: FlexiBoard-APK
         path: app/build/outputs/apk/debug/*.apk
